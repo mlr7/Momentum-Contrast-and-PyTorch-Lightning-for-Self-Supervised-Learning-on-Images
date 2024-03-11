@@ -22,7 +22,7 @@ SimCLR (Simple Framework for Contrastive Learning of Visual Representations) and
 
 **SimCLR**
 
-SimCLR creates a positive pair by applying two separate augmentations (e.g., cropping, resizing, color distortion) to the same image, treating them as similar. It then contrasts these positive pairs against negative pairs, which are any other images in the same batch. The key to SimCLR's effectiveness is the use of a large batch size and a rich set of augmentations to generate diverse positive pairs. It employs a simple end-to-end training strategy without the need for a memory bank or a momentum encoder. Instead, it relies heavily on the size of the batch to provide a variety of negative samples for effective contrastive learning.
+SimCLR creates a positive pair by applying two separate augmentations (cropping, resizing, color distortion) to the same image, treating them as similar. It then contrasts these positive pairs against negative pairs, which are any other images in the same batch. The key to SimCLR's effectiveness is the use of a large batch size and a rich set of augmentations to generate diverse positive pairs. It employs a simple end-to-end training strategy without the need for a memory bank or a momentum encoder. Instead, it relies heavily on the size of the batch to provide a variety of negative samples for effective contrastive learning.
 
 **Momentum Contrast (MoCo)**
 
