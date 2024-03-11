@@ -44,9 +44,8 @@ In summary, while both SimCLR and MoCo aim to learn robust visual representation
 
 * He, Kaiming, Haoqi Fan, Yuxin Wu, Saining Xie, and Ross Girshick. **"Momentum contrast for unsupervised visual representation learning."** In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 9729-9738. 2020.  (MoCo v1)
 
-* https://docs.lightly.ai/self-supervised-learning/examples/moco.html  
-
-
 * Chen, Xinlei, Haoqi Fan, Ross Girshick, and Kaiming He. **"Improved baselines with momentum contrastive learning."** arXiv preprint arXiv:2003.04297 (2020). (MoCo v2)
 
-* Chen, X., Xie, S. and He, K., 2021. **"An empirical study of training self-supervised vision transformers."** In Proceedings of the IEEE/CVF international conference on computer 
+* Chen, Xinlei, Saining Xie, and Kaiming He. **"An empirical study of training self-supervised vision transformers."** In Proceedings of the IEEE/CVF international conference on computer vision, pp. 9640-9649. 2021. (MoCo v3)
+
+* Chen, Ting, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton. **"A simple framework for contrastive learning of visual representations."** In International conference on machine learning, pp. 1597-1607. PMLR, 2020. (SimCLR)
