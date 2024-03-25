@@ -3,6 +3,14 @@ Momentum Contrast (MoCo) for self-supervised learning on an image dataset
 
 ![](img/moco_viz1.png)
 
+In these notebooks we explore a custom Self-Supervised Learning library in Python (Lightly - https://github.com/lightly-ai/lightly, https://docs.lightly.ai/self-supervised-learning/) and the integration of the Lightly library with PyTorch Lightning. PyTorch Lightning is a high-level framework built on top of PyTorch. Lightning is designed to abstract away the boilerplate code required for deep learning projects, allowing Lightning users to focus more on the research and less on the underlying engineering complexity.
+
+Self-supervised learning (SSL) has emerged as a powerful strategy for scaling up the amount of data that can be leveraged for training machine learning models. In SSL labels are generated from unlabeled datasets by ingeniously leverages properties of the data itself. This facilitates the learning of rich representations without the need for manually annotating datasets.
+
+Contrastive learning is an SSL approach that teaches a model to distinguish between similar (positive) and dissimilar (negative) pairs of data points. It relies on creating embeddings in a way that similar or "positive" pairs are brought closer together, while dissimilar or "negative" pairs are pushed apart in the embedding space. This is achieved through a contrastive loss function, such as Noise Contrastive Estimation (NCE) or Triplet Loss.
+
+Momentum Contrast (MoCo) is a specific instantiation of contrastive learning designed to address the challenge of having a large and consistent set of negative examples. MoCo achieves this by maintaining a dynamic dictionary of data samples, using a momentum-updated encoder. This strategy allows for a larger and more consistent set of negatives over batches, improving the quality of the learned representations. MoCo can be seen as enhancing the scalability and effectiveness of contrastive learning methods.
+
 # **Momentum Contrast (MoCo) Self-Supervised Learning for Feature Extraction from Images**
 
 **Momentum Contrast (MoCo)** is a **self-supervised learning** framework that can learn visual representations from unlabeled images. 
